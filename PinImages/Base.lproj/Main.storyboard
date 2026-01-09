@@ -101,7 +101,7 @@
                                 <rect key="frame" x="-20" y="-20" width="454" height="936"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="NKb-5c-OxF" userLabel="SingleImage">
-                                        <rect key="frame" x="20" y="20" width="1600" height="1059"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1600" height="1059"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -140,11 +140,11 @@
                         <color key="backgroundColor" name="YP Black (iOS)"/>
                         <constraints>
                             <constraint firstItem="Jvb-J4-xL1" firstAttribute="leading" secondItem="Oip-9H-Jgc" secondAttribute="leading" constant="8" id="5tl-LB-WJb"/>
-                            <constraint firstItem="Oip-9H-Jgc" firstAttribute="top" secondItem="qfx-BJ-nsU" secondAttribute="top" id="7vc-ht-z1V"/>
-                            <constraint firstItem="Oip-9H-Jgc" firstAttribute="leading" secondItem="qfx-BJ-nsU" secondAttribute="leading" id="9qd-6F-R1k"/>
-                            <constraint firstItem="qfx-BJ-nsU" firstAttribute="bottom" secondItem="Oip-9H-Jgc" secondAttribute="bottom" id="CKF-xQ-VQW"/>
+                            <constraint firstAttribute="top" secondItem="qfx-BJ-nsU" secondAttribute="top" id="7vc-ht-z1V"/>
+                            <constraint firstAttribute="leading" secondItem="qfx-BJ-nsU" secondAttribute="leading" id="9qd-6F-R1k"/>
+                            <constraint firstItem="qfx-BJ-nsU" firstAttribute="bottom" secondItem="Ow2-4g-nGq" secondAttribute="bottom" id="CKF-xQ-VQW"/>
                             <constraint firstItem="Jvb-J4-xL1" firstAttribute="top" secondItem="Oip-9H-Jgc" secondAttribute="top" constant="8" id="Fgd-cU-2LN"/>
-                            <constraint firstItem="qfx-BJ-nsU" firstAttribute="trailing" secondItem="Oip-9H-Jgc" secondAttribute="trailing" id="GEV-pA-uwV"/>
+                            <constraint firstItem="qfx-BJ-nsU" firstAttribute="trailing" secondItem="Ow2-4g-nGq" secondAttribute="trailing" id="GEV-pA-uwV"/>
                             <constraint firstItem="Oip-9H-Jgc" firstAttribute="bottom" secondItem="G22-Rb-hn8" secondAttribute="bottom" constant="17" id="GEf-rU-9DW"/>
                             <constraint firstItem="G22-Rb-hn8" firstAttribute="centerX" secondItem="Oip-9H-Jgc" secondAttribute="centerX" id="oKf-MS-vb4"/>
                         </constraints>
